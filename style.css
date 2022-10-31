@@ -10,7 +10,7 @@ scroll-behavior: smooth;
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.695);
+    background-color: rgba(0, 0, 0, 0.459);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -45,14 +45,14 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages.png?v=1619126283) no-repeat;
+    background: url(https://wallpaperaccess.com/full/796854.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 }
 .main h2{
-    color: white;
+    color: rgb(177,177,177);
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -61,12 +61,14 @@ section{
     
 
 .main h3{
-    color: white;
-    font-size: 1.5em;;
-    font-weight: 700;
+    color: rgb(177, 177, 177);
+    width: 50%;
+    font-size: 1em;;
+    font-weight: 800;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    border-radius: 8px; ;
 }
 
 .main-btn{
@@ -89,12 +91,17 @@ section{
 }
 
 .social-icons a{
-    color: white;
+    color: black;
     font-size: 1.7em;
     padding-right: 10px;
     padding-left: 40px;
-    
-
+} 
+    .social-icons-fot a{
+        color: white;
+        font-size: 1.7em;
+        padding-right: 10px;
+        padding-left: 40px;
+        
     
 }
 .title{
